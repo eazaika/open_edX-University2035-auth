@@ -4,7 +4,7 @@ Integrate authorization for hawthorn.2 throw University 2035
 In edx-platform/lms/static/sass/views/_login-register.scss you add button-oa2-university2035:  
 https://github.com/eazaika/open_edX-University2035-auth/blob/6e1fdcac6a4372ea961be4b5bddcdbd10fc4c545/static/sass/views/_login-register.scss#L656  
 ***
-edx-platform/lms/envs/common.py/aws.py  
+edx-platform/lms/envs/common.py and aws.py  
 ...  
 SSO_UNTI_URL = AUTH_TOKENS.get("SSO_UNTI_URL", SSO_UNTI_URL)  
 API_UNTI_URL = AUTH_TOKENS.get("API_UNTI_URL", API_UNTI_URL)  
